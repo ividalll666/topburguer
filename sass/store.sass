@@ -1,0 +1,76 @@
+@import "main"
+
+.container-wallpaper
+    img
+        object-position: 20%
+    
+    #home
+        position: absolute
+        top: 5%
+        left: 5%
+        width: 20%
+        padding: 1% 3%
+        background: white
+        border: 1px solid white
+        border-radius: 10px
+
+
+#store-info 
+    h1
+        font-size: 2rem
+        margin-bottom: 3%
+    
+    h2
+        font-size: 1.2rem
+        color: $color-one
+        
+    p
+        font-size: .7rem
+
+#container-food
+    #food-category
+        background: white
+
+        #food-menu
+            @include listformat()
+            margin-top: 5%
+            margin-bottom: 3%
+
+        .food-item
+            padding: 3%
+            font-weight: 600
+            color: $color-two
+
+        .item-active
+            border-bottom: 2px solid $color-one
+    
+    .container-food-store
+        background: $color-four
+        box-shadow: 10px 10px 5px 2px #c000003f
+        display: flex
+        height: 15vh
+        margin-bottom: 5%
+        border-radius: 10px
+        justify-content: space-between
+        padding: 3%
+        color: white
+
+        .food-name
+            width: 50%
+            font-size: .9rem
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+
+        .image-food
+            width: 30%
+            height: 100%
+            clip-path: circle()
+
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: 10%
+
