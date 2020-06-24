@@ -24,7 +24,7 @@
                 <h1>Filtro</h1>
 
                 <ul id="filter-list">
-                    <li id="10" onclick="btnchange(10)" class="filter-item picked"> Delivery</li>
+                    <li id="10" onclick="btnchange(10)" class="filter-item"> Delivery</li>
                     <li id="20" onclick="btnchange(20)" class="filter-item"> Aberto 24 Horas</li>
                     <li id="30" onclick="btnchange(30)" class="filter-item"> Aberto Agora</li>
                     <li id="40" onclick="btnchange(40)" class="filter-item"> Entrega Grátis</li>
@@ -87,8 +87,8 @@
 
                     <ul id="food-menu">
                         <li class="food-item item-active"> Popular </li>
-                        <li class="food-item"> Promocão</li>
-                        <li class="food-item"> Outros </li>
+                        <li class="food-item"> // </li>
+                        <li class="food-item"> // </li>
                     </ul>
 
                 </div>
